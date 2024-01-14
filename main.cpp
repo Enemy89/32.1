@@ -24,4 +24,5 @@ int main() {
     dict["producer"] = HoeAreYou.producer;
     dict["characters"] = HoeAreYou.characters;
     file<<dict;
+    file.close();
 }
